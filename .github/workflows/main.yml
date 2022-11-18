@@ -55,8 +55,8 @@ jobs:
       uses: rtCamp/action-slack-notify@master                 
       env:                                                    
         SLACK_CHANNEL: deployments                   
-        SLACK_MESSAGE: 'Deployed $ECR_REPOSITORY app thru GA & argo!'
-        SLACK_TITLE: 'Deploy'                         
+        SLACK_MESSAGE: 'Deployed gitops-argocd app thru GA & argo!'
+        SLACK_TITLE: 'argocd'                         
         SLACK_USERNAME: 'GitHub Action'                           
         SLACK_ICON: "https://www.padok.fr/hubfs/Imported_Blog_Media/argo-1.webp"
         SLACK_COLOR: '#228B22'                                
